@@ -1,0 +1,75 @@
+.anmtwo-card {
+  width: 320px;
+  height: 350px;
+  perspective: 800px;
+}
+.anmtwo-card .card__inner {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.anmtwo-card .card__inner .card__body {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.15);
+}
+.anmtwo-card .card__inner .card__body .header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+}
+.anmtwo-card .card__inner .card__body .header .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+}
+.anmtwo-card .card__inner .card__body .header .price {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: white;
+}
+.anmtwo-card .card__inner .card__body .header button {
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+  background-color: #aa2e4d;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.anmtwo-card .card__inner .card__body .headsphone {
+  width: 180px;
+  height: 180px;
+}
+.anmtwo-card .card__inner .card__body-front {
+  background: #cb2d3e;
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+}
+.anmtwo-card .card__inner .card__body-back {
+  background: #cb2d3e;
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  transform: rotateY(180deg);
+  justify-content: right;
+}
+
+.anmtwo-card:hover .card__inner {
+  transform: rotateY(180deg);
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */

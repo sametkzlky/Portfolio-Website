@@ -1,0 +1,427 @@
+@media screen and (max-width: 780px) {
+  .modal .modal-content {
+    height: 450px;
+  }
+  .navbar.sticky {
+    padding: 15px 30px;
+  }
+  .navbar {
+    padding: 25px 30px;
+    .content {
+      .menu-list {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        background-color: #fff;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        li {
+          margin-top: 45px;
+          position: relative;
+          a {
+            font-size: 23px;
+            color: $gray;
+          }
+          ul {
+            position: relative;
+            width: 100%;
+            left: 0;
+            top: 0;
+            border: none;
+            line-height: 20px;
+            box-shadow: none;
+            a {
+              font-size: 17px;
+              color: black;
+            }
+          }
+        }
+      }
+      .menu-list.active {
+        left: 0%;
+      }
+      .icon {
+        display: block;
+      }
+      .icon.hide {
+        display: none;
+      }
+    }
+    .menu-list li ul a {
+      font-size: 15px;
+    }
+  }
+
+  .label {
+    img {
+      object-fit: cover;
+    }
+    .head {
+      width: 50%;
+      h4 {
+        font-size: 17px;
+      }
+      h2 {
+        font-size: 30px;
+        text-align: center;
+      }
+      h3 {
+        padding: 7px 20px;
+      }
+    }
+  }
+  .coding-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    &-info {
+      width: 480px;
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &_about-me {
+      p {
+        text-align: center;
+        width: 350px;
+      }
+    }
+  }
+  .footer-clean {
+    p {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    .footer-clean .item {
+      text-align: center;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .row {
+      gap: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .footer-clean .item.social {
+      text-align: center;
+    }
+    .social {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    .project-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      box-shadow: none;
+    }
+    .card {
+      .card_cover {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      box-shadow: none;
+    }
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .about-information {
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .about-profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .education {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    }
+    p {
+      width: 450px;
+      text-align: center;
+    }
+  }
+
+  .contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .contact-information {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      box-shadow: none;
+    }
+    .contact-cover {
+      margin-left: 3.3rem;
+      &-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .contact-information {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      box-shadow: none;
+    }
+    .contact-cover {
+      margin-left: 3.3rem;
+      &-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .home-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 58px;
+    .home-contact-us {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+      &-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .map {
+        iframe {
+          width: 350px;
+        }
+      }
+    }
+  }
+
+  // PROJECTS MEDİA QUERY
+  .comp-product-wrapper {
+    background-color: #ffffff;
+    border-radius: 26px;
+    padding: 5px;
+    width: 400px;
+    .comp-group {
+      display: flex;
+      gap: 3px;
+      input {
+        width: 100px;
+        height: 40px;
+      }
+      .comp-group-text {
+        display: flex;
+        gap: 2px;
+        .comp-label {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-size: 13px;
+          padding: 4px;
+        }
+      }
+    }
+    .comp-card-other {
+      display: flex;
+      gap: 0px;
+      .comp-card-other-product {
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        width: 140px;
+        .comp-info .comp-btn button {
+          padding: 2px 4px;
+        }
+      }
+    }
+  }
+  .compfive-main {
+    .compfive-container {
+      width: 400px;
+      .compfive-container-product {
+        padding: 30px;
+        margin-top: -32px;
+      }
+    }
+  }
+  .compfour-product {
+    width: 400px;
+    .compfour-product-image {
+      img {
+        width: 150px;
+      }
+    }
+    .compfour-card {
+      .btn {
+        width: 180px;
+      }
+      .compfour-card-name .title {
+        width: 200px;
+        font-size: 13px;
+      }
+      .compfour-card-price .price-stock {
+        font-size: 7px;
+        opacity: 2.6;
+      }
+      .card-btn {
+        width: 190px;
+      }
+    }
+  }
+  .section {
+    width: 380px;
+    .scroll {
+      width: 380px;
+      .simg {
+        width: 380px;
+      }
+    }
+  }
+  .progress-container {
+    padding: 20px;
+    width: 400px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    .button {
+      padding: 8px;
+      font-size: 10px;
+    }
+    .links {
+      .link {
+        padding: 15px;
+        font-size: 11px;
+      }
+    }
+  }
+
+  #slider {
+    width: 380px;
+    img {
+      width: 380px;
+    }
+  }
+  #clock {
+    width: 400px;
+    .head {
+      font-size: 20px;
+    }
+    .clock-container {
+      gap: 5px;
+      display: flex;
+      .clock-items {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    #date {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .contact {
+    display: flex;
+    gap: 3rem;
+    .contact-cover {
+      margin-right: 5rem;
+      .contact-cover-product {
+        padding: 30px;
+      }
+    }
+  }
+  .about {
+    display: flex;
+    gap: 10rem;
+  }
+  .project {
+    display: flex;
+    gap: 2rem;
+  }
+  .home-about {
+    display: flex;
+  }
+  .modal .modal-content {
+    margin: 8% auto;
+  }
+}

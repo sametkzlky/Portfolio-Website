@@ -1,0 +1,41 @@
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #e7e6e6;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.16);
+  }
+  label {
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  label input {
+    padding: 4px;
+    border-radius: 8px;
+    align-items: center;
+    border: 1px solid gray;
+  }
+  #sonucnotes {
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+  }
+  #hesapla {
+    padding: 15px;
+    width: 250px;
+    background-color: rgb(231, 230, 230);
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  #hesapla:hover {
+    background-color: rgb(119, 177, 231);
+    transition: 0.5s;
+    color: white;
+  }

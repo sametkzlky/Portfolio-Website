@@ -1,0 +1,17 @@
+ .section {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-snap-type: x mandatory;
+    max-width: 600px;
+    gap: 10px;
+    overscroll-behavior-x: contain;
+    overflow-x: scroll;
+  }
+  .section .scroll {
+    scroll-snap-align: start;
+  }
+  .section .scroll img {
+    height: 350px;
+    width: 600px;
+  }
+  

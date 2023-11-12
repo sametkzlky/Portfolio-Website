@@ -1,0 +1,48 @@
+.slider{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgb(0, 0, 0,8);
+}
+.slider img{
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    transition: all .6s;
+}
+#img1{ opacity: 1 ;}
+#img2{ opacity: 0 ;}
+#img3{ opacity: 0 ;}
+
+.fas{
+    cursor: pointer;
+    position: absolute;
+    color: rgb(211, 200, 200);
+    top: 50%;
+    transform: scale(2.6);
+    transition: .4s;
+    z-index: 1;   
+}
+
+.fas:hover{color:#ffffff}
+.fa-chevron-left{left:30px;}
+.fa-chevron-right{right:30px;}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    z-index: 1;
+    transition: .4s;
+}
+#circle1{
+    left: 46%;
+    background: white;
+}
+#circle2{left: 50%;}
+#circle3{left: 54%;}

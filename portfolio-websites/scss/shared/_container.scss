@@ -1,0 +1,88 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 25px 50px;
+  transition: all 0.3s ease; 
+}
+.navbar.sticky {
+  padding: 15px 50px;
+  background-color: $white;
+  box-shadow: $shadow;
+}
+.navbar.sticky ul li a {
+  color: $gray;
+}
+.navbar.sticky .logo a {
+  color: $gray;
+}
+.navbar.sticky .fa-solid {
+  color: $gray;
+}
+.navbar.sticky .menu-list li ul {
+  background-color: $white;
+  border: none;
+  box-shadow: $shadow-two;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  color: $white;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-list {
+  display: inline-flex; 
+}
+.menu-list li {
+  list-style: none;
+  position: relative;
+  transition: all 0.3s;
+  padding: 10px;
+}
+.menu-list li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 59px;
+  z-index: 1;
+  width: 180px;
+}
+.menu-list li:hover ul {
+  display: block;
+}
+.menu-list li ul li {
+  position: relative;
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255);
+}
+.menu-list li ul li a {
+  line-height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.menu-list li a {
+  color: $white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 25px;
+}
+.cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  .fa-solid {
+    color: $white;
+  }
+}

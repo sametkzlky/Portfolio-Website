@@ -1,0 +1,16 @@
+.changecolor{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.changeback{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.changeback input{
+    width:200px ;
+}

@@ -1,0 +1,96 @@
+.ToDo-container{
+    width: 100%;   
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+  }
+  .todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 25px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+  .todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .todorow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 15px;
+  }
+  .todobtn{
+    border: none;
+    outline: none;
+    background: #4596ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 16px 50px;
+  }
+  .todobtn:hover{
+    opacity: 0.7;
+  }
+  .todoUl li{
+    list-style: none;
+    font-size: 20px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+  }
+  .todoUl li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    top: 10px;
+    left: 8px;
+    background: url(/images/projectsimg/JSImages/ToDoAppimg/cricle.png);
+    background-size: cover;
+    background-position: center; 
+  }
+  .todoUl li.checked{
+    color: #555;
+    text-decoration: line-through;
+  }
+  .todoUl li.checked::before{
+    background: url(/images/projectsimg/JSImages/ToDoAppimg/icon.jpeg);
+  }
+  .todoUl li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .todoUl li span:hover{
+    background: #edeef0;
+  }

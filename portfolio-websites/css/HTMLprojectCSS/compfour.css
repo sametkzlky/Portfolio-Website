@@ -1,0 +1,96 @@
+.compfour-card {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 32px;
+  gap: 15px;
+}
+.compfour-product {
+  display: flex;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+.compfour-card .compfour-card-name .btn-head {
+  background-color: #191847;
+  color: white;
+  width: 112px;
+  height: 25px;
+  border-radius: 20px;
+}
+.compfour-card .compfour-card-name .title {
+  width: 419px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  color: #191847;
+}
+.compfour-card .compfour-card-price .price-before {
+  font-size: 13px;
+}
+.compfour-card .compfour-card-price .price-now {
+  font-size: 35px;
+}
+.compfour-card .compfour-card-price .price-stock {
+  font-size: 13px;
+  opacity: 0.6;
+}
+.compfour-card .btn {
+  width: 400px;
+  padding: 15px;
+  background-color: #4788e9;
+  border: 0 solid;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.compfour-card .stock {
+  padding-left: 20px;
+}
+.compfour-card .card-btn {
+  display: flex;
+  gap: 10px;
+}
+.compfour-card .card-btn .scales {
+  border: 1px solid rgb(201, 201, 218);
+  border-radius: 8px;
+  padding: 12px;
+  width: 213px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+.compfour-card .card-btn .like {
+  border: 1px solid rgb(201, 201, 218);
+  border-radius: 8px;
+  padding: 12px;
+  width: 213px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.compfour-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 26px;
+  box-shadow: 0px 24px 28px 9px rgba(179, 193, 217, 0.33);
+  padding-left: 82px;
+  padding-top: 82px;
+  padding-bottom: 82px;
+  display: flex;
+} /*# sourceMappingURL=style.css.map */

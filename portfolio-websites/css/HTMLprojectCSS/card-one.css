@@ -1,0 +1,52 @@
+.anm-card {
+  width: 340px;
+  height: 300px;
+  transition: all 0.5s;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11);
+  text-align: center;
+  overflow: hidden;
+  background: rgb(129, 162, 211);
+}
+.anm-card-header {
+  border-radius: 8px;
+}
+.anm-card-header .title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: black;
+}
+.anm-card .content {
+  display: block;
+  text-align: center;
+  color: #212121;
+  margin: 0 18px;
+}
+.anm-card .content .btn {
+  background-color: rgb(129, 162, 211);
+  padding: 12px;
+  width: 150px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11);
+  margin-top: 18px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.anm-card:hover .card .header .title {
+  padding: 0;
+}
+
+.anm-card:hover {
+  height: 420px;
+  background: linear-gradient(360deg, rgba(237, 237, 237, 0.7725490196) 30%, rgb(122, 151, 247) 70%);
+}
+
+/*# sourceMappingURL=style.css.map */

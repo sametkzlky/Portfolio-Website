@@ -1,0 +1,67 @@
+.coding-skills {
+display: flex;
+justify-content: center;
+gap: 50px;
+.skill-main {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;    
+    h3{
+      font-size: 25px;
+      color: $gray;
+      font-family: $base-font;
+    }
+    .skill-wrrap {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .skill-name {
+        color: $gray;
+        font-size: 18px;
+        font-weight: 500;
+      }
+  
+      .skill-bar {
+        height: 20px;
+        background-color: $wheat;
+        border-radius: 8px;
+        padding: 4px;
+      }
+  
+      .skill-per {
+        height: 13px;
+        background: #fb4632;
+        border-radius: 8px;
+        width: 0;
+        transition: 6s linear;
+        position: relative;
+        &:before {
+          content: attr(per);
+          position: absolute;
+          padding: 4px 6px;
+          background-color: #e51700;
+          color: #fff;
+          font-size: 11px;
+          border-radius: 4px;
+          top: -35px;
+          right: 0;
+          transform: translateX(50%);
+        }
+  
+        &:after {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: #e51700;
+          top: -16px;
+          right: 0;
+          transform: translateX(50%) rotate(45deg);
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.card {  
+  display: flex;  
+  justify-content: center;
+  padding-top: 100px;
+  gap: 50px;
+  font-family: $base-font;
+  &-cover {
+    width: 400px;
+    height: 285px;
+    transition: all 0.5s;
+    box-shadow: $box-shadow;
+    text-align: center;
+    overflow: hidden;
+    .header {
+      border-radius: $border-s;
+      .title {
+        font-size: $fs-xl;
+        letter-spacing: $l-s;
+        font-weight: $fw-s;
+        color: $black;
+        padding-top: 15px;
+      }
+    }
+    .content {
+      display: block;
+      text-align: center;
+      color: #212121;
+      margin: 0 18px;
+
+      .dokuma {
+        color: $gray;
+        font-size: $fs-s;
+        letter-spacing: $l-s;
+        margin-top: $fs-xl;
+      }
+    }
+  }
+}
+
+.card-cover:hover .card .header .title {
+  padding: 0;
+}
+.card-cover:hover {
+  height: 555px;
+}

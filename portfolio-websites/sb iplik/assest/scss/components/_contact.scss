@@ -1,0 +1,41 @@
+.contact {
+  width: 100%;
+  display: flex;
+  gap: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  &-text {
+    padding-top: 80px;
+    letter-spacing: 2px;
+    font-family: "Gill Sans", "Gill Sans MT";
+    &-head {
+      font-size: 35px;
+      color: #3a3939;
+    }
+    &-body {
+      font-size: 20px;
+      color: #6d6c6c;
+      padding-top: 50px;
+    }
+  }
+  &-group {
+    background:linear-gradient(rgb(237, 237, 237),white);
+    display: flex;
+    padding: 80px;   
+    flex-direction: column;
+    gap: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    &-label {
+      display: flex;
+      gap: 40px;
+      .fa-solid {
+        padding-top: 15px;
+      }
+    }
+    .map{
+        margin-top: 50px;
+    }
+  } 
+}
